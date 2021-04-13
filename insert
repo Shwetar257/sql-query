@@ -1,0 +1,17 @@
+create table emp(
+empid number (5),
+name varchar(30),
+Dept varchar(10),
+DOJ date,
+DOB date,
+salary number(7)
+)
+insert into emp values(
+1,
+'RAM KUMAR',
+'MCA',
+'27-jul-2009',
+'15-aug-1982',
+25000);
+
+select *from emp;
